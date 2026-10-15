@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhaycov C. Munlawin - Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #2b2b2b; /* Dark background color around the image */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .website-container {
+            width: 100%;
+            max-width: 600px; /* Controls how wide the design appears on computers */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .website-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="website-container">
+        <!-- This loads your complete Canva design image -->
+        <img src="website-bg.png" alt="Jhaycov C. Munlawin Profile">
+    </div>
+
+</body>
+</html>
